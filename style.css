@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+nav{
+    padding: 30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background: none;
+    background-color: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav ul{
+    float: right;
+    margin-right:  60px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    padding: 12 10px;
+    margin: 7px;
+    line-height: 50px;
+    font-size: 15px;
+    color: white;
+    
+}
+.change{
+    color: #FF6347;
+}
+h1{
+    margin: 100;
+}
+.word{
+color: #FF6347;
+    font-size: 37px;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.word:before{
+    color:white;
+    content: "A";
+}
+button{
+    background-color: white;
+  color: #FF6347;
+  border: 2px solid #FF6347;
+    border-width:thin;
+    border-color: none;
+    width: 101;
+    height: 40;
+    font-weight: bold;
+}
+
+
+button:hover{
+    background-color: orangered;
+    color:white;
+}
+body{
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+    width: 200;
+    height: 200;
+    margin-top: 10%;
+}
+
+
+h3{
+    margin-right: 80%;
+    color: white;
+    
+}
+p{
+    font-family: 'Sansita Swashed', cursive;
+}
+.h2{
+    font-family: 'Sansita Swashed', cursive;
+}
